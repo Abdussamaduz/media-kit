@@ -144,3 +144,51 @@ button img
 	overflow-x: scroll;
 	overflow-y: hidden;
 }
+
+.years::-webkit-scrollbar
+{
+	width: 0;
+}
+
+.right .year
+{
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+	min-width: 80px;
+	height:50px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 23px;
+	color: #ddd;
+}
+
+.right .active
+{
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+}
+
+.rght-list
+{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.right .right-item
+{
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.right .right-icon
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
