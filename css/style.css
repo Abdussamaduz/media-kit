@@ -15,3 +15,36 @@ body
 	align-items: center;
 
 }
+
+.box
+{
+	width: 1000px;
+	min-height: 570px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left
+{
+	width: 50%;
+	min-height: 570px;
+	background-image: url(../assets/img/background.jpg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contain
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.left-title
+{
+	font-family: 'Roboto', sans-serif;
+	color: 	white;
+	margin: 10px 0;
+	font-weight: 500;
+}
