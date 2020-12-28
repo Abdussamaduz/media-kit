@@ -1,0 +1,17 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+
+body
+{
+	height: 100vh;
+	background-color: #C1F7FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
