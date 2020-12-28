@@ -29,7 +29,7 @@ body
 {
 	width: 50%;
 	min-height: 570px;
-	background-image: url(../assets/img/background.jpg);
+	background-image: url(../img/background.jpg);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -44,6 +44,7 @@ body
 .left-title
 {
 	font-family: 'Roboto', sans-serif;
+	text-align: center;
 	color: 	white;
 	margin: 10px 0;
 	font-weight: 500;
@@ -56,6 +57,7 @@ body
 	letter-spacing: 1px;
 	text-align: left;
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 .left-link
@@ -71,6 +73,7 @@ body
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 0 auto;
 }
 
 .left-link:hover
@@ -191,4 +194,28 @@ button img
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
+}
+
+.right .right-txt
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	margin: 5px 20px;
+	color: rgba(0,0,0,0.7);
+	font-weight: 500;
+}
+
+.right h3
+{
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.right .date-txt
+{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-left: 5px;
 }
