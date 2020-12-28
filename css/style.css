@@ -97,3 +97,50 @@ button img
 	margin: 0 7px;
 
 }
+
+.right
+{
+	width: 50%;
+	height: 570px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+}
+
+.right .container
+{
+	width: 85%;
+	height: 90%;
+	/*border: 1px solid black;*/
+}
+.right-txt
+{
+	width: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.right .right-title
+{
+	font-family: 'Roboto', sans-serif;
+	margin: 10px 0;
+	color: black;
+}
+
+.right .right-img
+{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.right .years
+{
+	max-width: 600px;
+	display: flex;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
